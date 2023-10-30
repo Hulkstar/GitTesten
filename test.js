@@ -13,7 +13,7 @@ class VideoPlayer {
   }
   stop() {
     if (this.status === "playing") {
-      console.log("Video stoppen");
+      console.log("Video stoppen!");
       this.status = "stopped";
     } else if (this.status === "stopped") {
       console.log("Schon gestoppt");
